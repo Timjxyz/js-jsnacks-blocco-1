@@ -5,17 +5,11 @@
 
 let numeri=false;
 let numeriInseriti
-for (let i=0; !numeri; i++) {
-   if (i<10){   
-    numeriInseriti=prompt('inserisci un numero: ');
-    
-   }else{
-    
-    numeri=true;
-    let somma=numeriInseriti * 10;   
-    alert('il risultato dei numeri inseriti è' + somma)
-        
-   }
+let somma=0;   
+for (let i=0; i<9; i++) {
+   numeriInseriti=prompt('inserisci un numero: ');
+  
+   somma+=numeriInseriti
 
 }
 
