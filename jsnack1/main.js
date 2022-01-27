@@ -3,13 +3,12 @@
 
  //chiedere al player 1 di inserire un numero per 10 volte
 
-let numeri=false;
+
 let numeriInseriti
 let somma=0;   
-for (let i=0; i<9; i++) {
-   numeriInseriti=prompt('inserisci un numero: ');
-  
+for (let i=0; i<10; i++) {
+   numeriInseriti=parseInt(prompt('inserisci un numero: '));
    somma+=numeriInseriti
-
+   
 }
-
+alert('Il risultato è ' + somma)
