@@ -8,6 +8,10 @@ let numeriInseriti
 let somma=0;   
 for (let i=0; i<10; i++) {
    numeriInseriti=parseInt(prompt('inserisci un numero: '));
+   if(isNan(numeriInseriti)){
+      numeriInseriti=0;
+      alert('Il numero inserito non è un numero')
+   }
    somma+=numeriInseriti
    
 }
